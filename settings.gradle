@@ -8,3 +8,4 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Gradle"
 include ':app'
+include ':MyLib'
