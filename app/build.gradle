@@ -5,6 +5,15 @@ plugins {
 
 android {
     compileSdk 31
+    flavorDimensions "odougle"
+    productFlavors{
+        paid {
+            dimension "odougle"
+        }
+        free {
+            dimension "odougle"
+        }
+    }
 
     defaultConfig {
         applicationId "com.odougle.gradle"
